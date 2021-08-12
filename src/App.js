@@ -6,12 +6,12 @@ import {
   Link,
 } from "react-router-dom";
 import Header from './Header';
+import Home from './Home';
 
 function App() {
   return (
     <Router>
       <div>
-
         {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
         <Switch>
@@ -27,7 +27,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
-            <h1>Home Page!!!</h1>
+            <Home />
           </Route>
         </Switch>
       </div>
