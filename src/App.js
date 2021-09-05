@@ -5,8 +5,8 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import Header from './Header';
-import Home from './Home';
+import Header from './component/header/Header';
+import Home from './component/home/Home';
 
 function App() {
   return (
