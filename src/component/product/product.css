@@ -35,4 +35,5 @@ margin-bottom: 15px
     border: 1px solid ;
     border-color: #a88734 #9c7e31 #848a29;
     width: 100px;
+    cursor: pointer;
 }
