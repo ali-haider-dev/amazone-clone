@@ -25,14 +25,14 @@ function Home() {
             </div>
             <div className="home__row">
                 <Product
-                    id="123123"
+                    id="1231235"
                     title="Apple Watch Series 5 (GPS, 44mm) - Silver Aluminum Case with White Sport Band with AppleCare+ Bundle "
                     price={50.07}
                     rating={5}
                     image="https://m.media-amazon.com/images/I/61puvr+oEBL._AC_SL1500_.jpg"
 
                 />  <Product
-                    id="123123"
+                    id="1231236"
                     title="Ortizan Portable Bluetooth Speaker, IPX7 Waterproof Wireless Speaker with 24W Loud Stereo Sound "
                     price={11.9}
                     rating={2}
@@ -40,7 +40,7 @@ function Home() {
 
                 />
                 <Product
-                    id="123123"
+                    id="1231237"
                     title="Apple iPhone 11 Pro Max, 512GB, Midnight Green - Unlocked (Renewed Premium)"
                     price={931}
                     rating={4}
@@ -50,7 +50,7 @@ function Home() {
             </div>
             <div className="home__row">
                 <Product
-                    id="123123"
+                    id="1231238 "
                     title="Samsung LC49J890DKNXZA 49 C49J890DKN 3840x1080 Super Ultra-Wide Monitor with USB-C for Business (Renewed)"
                     price={1139.16}
                     rating={4}
