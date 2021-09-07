@@ -1,4 +1,4 @@
-import firebase from "firebase               "
+import firebase from "firebase";
 
 
 var firebaseConfig = {
@@ -13,3 +13,11 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
+
+const db = firebase.firestore()
+const auth = firebase.auth()
+
+export {
+    db,
+    auth
+}
